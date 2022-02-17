@@ -31,17 +31,17 @@ header img {
 
 .box {
     line-height: .5;
-    background: ##FFC300;
-    padding: 2% 1%;
+    background: #FFC300;
+    padding: 20px;
 }
 
 a {
-    color: ##FFC300;
+    color: #FFC300;
     text-decoration: none;
 }
 
 .caption {
-    font-size: .8em;
+    font-size: .9em;
 }
 
 .box a {
