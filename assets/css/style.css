@@ -8,17 +8,21 @@ body{
 h1 {
     font-family: 'Montserrat', sans-serif;
     font-size: 3em;
+    font-weight: 800;
 }
 
 h2 {
     font-family: 'Lato', sans-serif;
-    font-weight: 800;
+    font-weight: 600;
     color:azure;
+}
+
+p {
+    font-weight: 800;
 }
 
 .number {
     color: gray;
-    font-size: 1.5em;
 }
 
 nav a {
@@ -28,7 +32,7 @@ nav a {
 a {
     color: gray;
     text-decoration: none;
-    font-size: 1.5em;
+    font-size: 1em;
 }
 
 nav {
@@ -49,12 +53,15 @@ nav {
 .row img {
     margin: 20px 0;
 }
-.row justify-content-right {
-    float: right;
+
+.center {
+    text-align: center;
+    font-size: 1.3em;
 }
 
-.row justify-content-center {
+.contact {
     text-align: center;
+    font-size: 1em;
 }
 
 footer {
