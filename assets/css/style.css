@@ -71,6 +71,7 @@ footer {
     padding: 0;
     text-transform: uppercase;
     text-align: center;
+    color: aliceblue;
 }
 
 @media (max-width: 450px) {
