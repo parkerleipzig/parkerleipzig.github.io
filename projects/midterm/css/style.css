@@ -1,0 +1,37 @@
+/*fonts
+font-family: 'Barlow Condensed', sans-serif;
+font-family: 'Manrope', sans-serif;
+font-family: 'Archivo', sans-serif;
+
+colors
+#f5f5f5; off-white
+#080707; black
+#df4601; orange
+#ffffff; pure white
+#d4c9c3; beige
+*/
+
+body {
+    background-color: #080707;
+    font-size: 18px;
+    font-family: 'Archivo', sans-serif;
+    color: #f5f5f5;
+}
+
+.link {
+    color: #f5f5f5;
+    text-decoration-color: #df4601;
+    font-weight: 600;
+    background-color: #f5f5f5;
+    
+}
+
+@media(max-width: 850px) {
+    font-size: 16px;
+}
+    
+
+
+@media(max-width: 450px) { 
+    font-size: 14px;
+}
