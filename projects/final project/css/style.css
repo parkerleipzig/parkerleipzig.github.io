@@ -4,32 +4,53 @@ font-family: 'Roboto Slab', serif;
 font-family: 'Slabo 27px', serif; */
 
 body {
-    background-color: #C6D9EC;
+    background-color: #D0D9CD;
     color: #94B8B8
 }
 
 p {
     font-family: 'Roboto Slab', serif;
-    color: #94B8B8;
-    font-size: 1em;
+    color: gray;
+    font-size: 1.2em;
 }
 
 h1 {
     font-family: 'Slabo 27px', serif;
-    color: #79D2A6;
-    font-size: 1.5em;
+    font-weight: 900;
+    color: green;
+    font-size: 3em;
+    margin: 3% 0%;
+}
+
+.center {
+    text-align: center;
+    display: block;
+}
+
+.md {
+    clear: left;
+}
+
+.mckeldin {
+    float: left;
+}
+
+.line {
+    float: right;
 }
 
 .graphic {
-    padding: 5%;
+    padding: 0% 5%;
     background-color: #ffffff;
+    margin: 5% 0%;
 }
 
-caption {
-    font-family: 'Questrial', sans-serif;
-    font-size: .8em;
-    color: #d4c9c3;
-    font-style: italic;
+.swab {
+    float: right;
+}
+
+a {
+    color: #78866B;
 }
 
 footer {
