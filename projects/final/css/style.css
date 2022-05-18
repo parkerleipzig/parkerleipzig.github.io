@@ -1,0 +1,76 @@
+/* font-family: 'Oxygen', sans-serif;
+font-family: 'Questrial', sans-serif;
+font-family: 'Roboto Slab', serif;
+font-family: 'Slabo 27px', serif; */
+
+body {
+    font-family: 'Roboto Slab', serif;
+    background-color: #D0D9CD;
+    color: gray;
+}
+
+p {
+    font-size: 1.2em;
+    width: 90%;
+    margin: 0 auto;
+    line-height: 1.5;
+    padding: 0 0 3% 0;
+}
+
+h1 {
+    font-family: 'Slabo 27px', serif;
+    font-weight: 900;
+    color: green;
+    font-size: 3em;
+    margin: 3% 0;
+    text-align: center;
+}
+
+a {
+    color: #78866B;
+}
+
+.graphic {
+    padding: 5%;
+    background-color: #ffffff;
+    margin: 5% 0;
+}
+
+footer {
+    font-size: .9em;
+    margin: 0;
+    padding: 0;
+    text-transform: uppercase;
+    text-align: center;
+    color: #79D2A6;
+}
+
+.left {
+    float: left;
+    width: 75%;  
+    padding: 0 2% 0 0;
+}
+
+.right {
+    float: right;
+    width: 75%;  
+    padding: 0 0 0 2%;
+}
+
+
+@media (max-width: 775px) {
+    .left,
+    .right {
+        width: 75%;
+        margin: 2% 0;
+    }
+}
+
+@media (max-width: 450px) {
+    .left,
+    .right {
+        width: 100%;
+        margin: 2% 0;
+        padding: 0 2% 0 0;
+    }
+}
